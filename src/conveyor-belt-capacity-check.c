@@ -9,9 +9,9 @@ int main() {
     scanf("%d", &motorCount);
     
     if (motorCount*MOTOR_CAPACITY < totalPackageWeight) {
-        printf("Yes! The conveyor belt cannot carry the packages.\n");
+        printf("No. The conveyor belt cannot carry the packages.\n");
     } else {
-        printf("No. The conveyor belt can carry the packages.\n");
+        printf("Yes! The conveyor belt can carry the packages.\n");
     }
 
 }
